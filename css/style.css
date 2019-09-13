@@ -6,3 +6,11 @@
 body.no-sidebars .islandora-large-image-content {
   width: 100%;
 }
+
+.islandora-audio-content {
+  width: 100%;
+}
+
+.islandora-video-content {
+  width: 100%;
+}
