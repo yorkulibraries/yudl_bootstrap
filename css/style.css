@@ -14,3 +14,35 @@ body.no-sidebars .islandora-large-image-content {
 .islandora-video-content {
   width: 100%;
 }
+
+
+/** 
+ * Addressing some WCAG 2.0 AA contrast issues.
+ */
+
+a {
+    color: #08599B;
+}
+
+.breadcrumb>.active {
+    color: #525252;
+}
+
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    color: #ffffff;
+    background-color: #085696;
+    border-color: #085696;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #085696;
+    background-color: #ffffff;
+}
+
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+    color: #595959;
+}
+
+.btn-primary {
+    background-color: #085696;
+}
